@@ -2,6 +2,7 @@
 
 # MPLAB X IDE (Netbeans) specific
 **/*.X/~*.*
+**/*.X/.ca/
 **/*.X/build/
 **/*.X/debug/
 **/*.X/dist/
