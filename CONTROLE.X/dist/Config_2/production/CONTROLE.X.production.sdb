@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 16F887 ]
 [d frameptr 0 ]
-"7 C:\Users\Henrique\Desktop\projetos_aulas\CONTROLE.X\bibliotec_lcd.c
+"7 C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\bibliotec_lcd.c
 [v _muda_pin muda_pin `(v  1 e 1 0 ]
 "20
 [v _enable enable `(v  1 e 1 0 ]
@@ -65,7 +65,7 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"44 C:\Users\Henrique\Desktop\projetos_aulas\CONTROLE.X\controle.c
+"44 C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
 [v _PWM_init PWM_init `(v  1 e 1 0 ]
 "59
 [v _LM35 LM35 `(f  1 e 4 0 ]
@@ -81,7 +81,7 @@
 [v _main main `(v  1 e 1 0 ]
 "196
 [v _Timers_ISR Timers_ISR `II(v  1 e 1 0 ]
-"4 C:\Users\Henrique\Desktop\projetos_aulas\CONTROLE.X\bibliotec_lcd.c
+"4 C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\bibliotec_lcd.c
 [v _RS RS `VEi  1 e 2 0 ]
 [v _EN EN `VEi  1 e 2 0 ]
 [v _D4 D4 `VEi  1 e 2 0 ]
@@ -238,7 +238,7 @@
 [v __powers_ _powers_ `DC[13]d  1 e 52 0 ]
 "39
 [v __npowers_ _npowers_ `DC[13]d  1 e 52 0 ]
-"37 C:\Users\Henrique\Desktop\projetos_aulas\CONTROLE.X\controle.c
+"37 C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
 [v _pwm_enabled pwm_enabled `uc  1 e 1 0 ]
 [s S22 . 12 `*.39VEuc 1 port_rs 2 0 `uc 1 pino_rs 1 2 `*.39VEuc 1 port_en 2 3 `uc 1 pino_en 1 5 `*.39VEuc 1 port_data 2 6 `uc 1 pino_d4 1 8 `uc 1 pino_d5 1 9 `uc 1 pino_d6 1 10 `uc 1 pino_d7 1 11 ]
 "39
@@ -487,7 +487,7 @@
 [v ___fleq@ff2 ff2 `d  1 p 4 6 ]
 "12
 } 0
-"47 C:\Users\Henrique\Desktop\projetos_aulas\CONTROLE.X\bibliotec_lcd.c
+"47 C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\bibliotec_lcd.c
 [v _lcd_init lcd_init `(v  1 e 1 0 ]
 {
 [s S22 . 12 `*.39VEuc 1 port_rs 2 0 `uc 1 pino_rs 1 2 `*.39VEuc 1 port_en 2 3 `uc 1 pino_en 1 5 `*.39VEuc 1 port_data 2 6 `uc 1 pino_d4 1 8 `uc 1 pino_d5 1 9 `uc 1 pino_d6 1 10 `uc 1 pino_d7 1 11 ]
@@ -535,7 +535,7 @@
 [v muda_pin@_val _val `i  1 p 2 6 ]
 "17
 } 0
-"129 C:\Users\Henrique\Desktop\projetos_aulas\CONTROLE.X\controle.c
+"129 C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
 [v _controle_pwm controle_pwm `(v  1 e 1 0 ]
 {
 [v controle_pwm@ligado ligado `uc  1 a 1 wreg ]
@@ -642,7 +642,7 @@
 [v ___fldiv@b b `d  1 p 4 55 ]
 "185
 } 0
-"196 C:\Users\Henrique\Desktop\projetos_aulas\CONTROLE.X\controle.c
+"196 C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
 [v _Timers_ISR Timers_ISR `II(v  1 e 1 0 ]
 {
 "209
