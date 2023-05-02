@@ -841,139 +841,139 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 164 ]
 [e :U 162 ]
 "173
-[; ;controle.c: 173:         sprintf(buffer, "ADC0: %.2f, Duty: %uc \r\n", temp, duty_cycle);
+[; ;controle.c: 173:         sprintf(buffer, "Temp: %.2f C Duty: %u \r\n", temp, duty_cycle);
 [e ( _sprintf (1 , , (. , &U _buffer :s 2C -> _temp `d -> _duty_cycle `i ]
-"174
-[; ;controle.c: 174:         for (int i = 0; buffer[i] != '\0'; i++)
+"175
+[; ;controle.c: 175:         for (int i = 0; buffer[i] != '\0'; i++)
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
 [e $U 168  ]
 [e :U 165 ]
-"175
-[; ;controle.c: 175:         {
-{
 "176
-[; ;controle.c: 176:             TXREG = buffer[i];
-[e = _TXREG -> *U + &U _buffer * -> -> _i `ui `ux -> -> # *U &U _buffer `ui `ux `uc ]
+[; ;controle.c: 176:         {
+{
 "177
-[; ;controle.c: 177:             while (!TXSTAbits.TRMT);
+[; ;controle.c: 177:             TXREG = buffer[i];
+[e = _TXREG -> *U + &U _buffer * -> -> _i `ui `ux -> -> # *U &U _buffer `ui `ux `uc ]
+"178
+[; ;controle.c: 178:             while (!TXSTAbits.TRMT);
 [e $U 169  ]
 [e :U 170 ]
 [e :U 169 ]
 [e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 170  ]
 [e :U 171 ]
-"178
-[; ;controle.c: 178:         }
+"179
+[; ;controle.c: 179:         }
 }
 [e ++ _i -> 1 `i ]
 [e :U 168 ]
 [e $ != -> *U + &U _buffer * -> -> _i `ui `ux -> -> # *U &U _buffer `ui `ux `ui -> 0 `ui 165  ]
 [e :U 166 ]
 }
-"179
-[; ;controle.c: 179:         if (RCIF)
-[e $ ! _RCIF 172  ]
 "180
-[; ;controle.c: 180:         {
-{
+[; ;controle.c: 180:         if (RCIF)
+[e $ ! _RCIF 172  ]
 "181
-[; ;controle.c: 181:             char c = RCREG;
+[; ;controle.c: 181:         {
+{
+"182
+[; ;controle.c: 182:             char c = RCREG;
 [v _c `uc ~T0 @X0 1 a ]
 [e = _c -> _RCREG `uc ]
-"182
-[; ;controle.c: 182:             if (c == '0' && pwm_enabled) {
+"183
+[; ;controle.c: 183:             if (c == '0' && pwm_enabled) {
 [e $ ! && == -> _c `ui -> 48 `ui != -> _pwm_enabled `i -> 0 `i 173  ]
 {
-"183
-[; ;controle.c: 183:                 controle_pwm(0);
-[e ( _controle_pwm (1 -> -> 0 `i `uc ]
 "184
-[; ;controle.c: 184:                 TXREG = 'P';
-[e = _TXREG -> -> 80 `ui `uc ]
+[; ;controle.c: 184:                 controle_pwm(0);
+[e ( _controle_pwm (1 -> -> 0 `i `uc ]
 "185
-[; ;controle.c: 185:             } else if (c == '1' && !pwm_enabled) {
+[; ;controle.c: 185:                 TXREG = 'P';
+[e = _TXREG -> -> 80 `ui `uc ]
+"186
+[; ;controle.c: 186:             } else if (c == '1' && !pwm_enabled) {
 }
 [e $U 174  ]
 [e :U 173 ]
 [e $ ! && == -> _c `ui -> 49 `ui ! != -> _pwm_enabled `i -> 0 `i 175  ]
 {
-"186
-[; ;controle.c: 186:                 controle_pwm(1);
-[e ( _controle_pwm (1 -> -> 1 `i `uc ]
 "187
-[; ;controle.c: 187:                 TXREG = 'P';
-[e = _TXREG -> -> 80 `ui `uc ]
+[; ;controle.c: 187:                 controle_pwm(1);
+[e ( _controle_pwm (1 -> -> 1 `i `uc ]
 "188
-[; ;controle.c: 188:             }
+[; ;controle.c: 188:                 TXREG = 'P';
+[e = _TXREG -> -> 80 `ui `uc ]
+"189
+[; ;controle.c: 189:             }
 }
 [e :U 175 ]
 [e :U 174 ]
-"189
-[; ;controle.c: 189:         }
+"190
+[; ;controle.c: 190:         }
 }
 [e :U 172 ]
-"190
-[; ;controle.c: 190:         velocidade(duty_cycle);
+"191
+[; ;controle.c: 191:         velocidade(duty_cycle);
 [e ( _velocidade (1 -> _duty_cycle `uc ]
-"192
-[; ;controle.c: 192:         _delay((unsigned long)((100)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "193
-[; ;controle.c: 193:     }
+[; ;controle.c: 193:         _delay((unsigned long)((100)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"194
+[; ;controle.c: 194:     }
 }
 [e :U 158 ]
 [e $U 159  ]
 [e :U 160 ]
-"194
-[; ;controle.c: 194: }
+"195
+[; ;controle.c: 195: }
 [e :UE 157 ]
 }
 [v $root$_Timers_ISR `(v ~T0 @X0 0 e ]
-"196
-[; ;controle.c: 196: void __attribute__((picinterrupt(("")))) Timers_ISR()
-[v _Timers_ISR `(v ~T1 @X0 1 ef ]
 "197
-[; ;controle.c: 197: {
+[; ;controle.c: 197: void __attribute__((picinterrupt(("")))) Timers_ISR()
+[v _Timers_ISR `(v ~T1 @X0 1 ef ]
+"198
+[; ;controle.c: 198: {
 {
 [e :U _Timers_ISR ]
 [f ]
-"198
-[; ;controle.c: 198:     if (INTCONbits.T0IF)
-[e $ ! != -> . . _INTCONbits 0 2 `i -> 0 `i 177  ]
 "199
-[; ;controle.c: 199:     {
-{
+[; ;controle.c: 199:     if (INTCONbits.T0IF)
+[e $ ! != -> . . _INTCONbits 0 2 `i -> 0 `i 177  ]
 "200
-[; ;controle.c: 200:         INTCONbits.T0IF = 0;
-[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+[; ;controle.c: 200:     {
+{
 "201
-[; ;controle.c: 201:         TMR0 = 100;
-[e = _TMR0 -> -> 100 `i `uc ]
+[; ;controle.c: 201:         INTCONbits.T0IF = 0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
 "202
-[; ;controle.c: 202:         RC3 = !RC3;
-[e = _RC3 ! _RC3 ]
+[; ;controle.c: 202:         TMR0 = 100;
+[e = _TMR0 -> -> 100 `i `uc ]
 "203
-[; ;controle.c: 203:     }
+[; ;controle.c: 203:         RC3 = !RC3;
+[e = _RC3 ! _RC3 ]
+"204
+[; ;controle.c: 204:     }
 }
 [e :U 177 ]
-"204
-[; ;controle.c: 204:     if (TMR2IF)
-[e $ ! _TMR2IF 178  ]
 "205
-[; ;controle.c: 205:     {
-{
+[; ;controle.c: 205:     if (TMR2IF)
+[e $ ! _TMR2IF 178  ]
 "206
-[; ;controle.c: 206:         TMR2IF = 0;
-[e = _TMR2IF -> -> 0 `i `b ]
+[; ;controle.c: 206:     {
+{
 "207
-[; ;controle.c: 207:     }
+[; ;controle.c: 207:         TMR2IF = 0;
+[e = _TMR2IF -> -> 0 `i `b ]
+"208
+[; ;controle.c: 208:     }
 }
 [e :U 178 ]
-"209
-[; ;controle.c: 209: }
+"210
+[; ;controle.c: 210: }
 [e :UE 176 ]
 }
 [p f _sprintf 8463360 ]
 [a 1C 67 111 110 116 114 111 108 101 0 ]
-[a 2C 65 68 67 48 58 32 37 46 50 102 44 32 68 117 116 121 58 32 37 117 99 32 13 10 0 ]
+[a 2C 84 101 109 112 58 32 37 46 50 102 32 67 32 68 117 116 121 58 32 37 117 32 13 10 0 ]

@@ -64,7 +64,7 @@ strings STRING 0 1000 1000 B8 2 1
 dataBANK3 BANK3 1 1B6 1B6 C 1 1
 bssCOMMON COMMON 1 7A 7A 2 1 1
 config CONFIG 4 2007 2007 2 2 1
-$C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
+$C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
 idloc IDLOC 5 2000 2000 4 2 1
 reset_vec CODE 0 0 0 3 2 1
 end_init CODE 0 C C 3 2 1
@@ -121,52 +121,52 @@ STRING 1800-1BD7 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/Config_2/production\CONTROLE.X.production.o
-F cinit CODE >996:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-F cinit CODE >999:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-F cinit CODE >1079:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-10 cinit CODE >1080:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-11 cinit CODE >1081:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-12 cinit CODE >1082:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-13 cinit CODE >1083:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-14 cinit CODE >1084:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-15 cinit CODE >1085:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-16 cinit CODE >1086:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-17 cinit CODE >1087:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-18 cinit CODE >1088:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1B cinit CODE >1092:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C cinit CODE >1093:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1D cinit CODE >1094:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1E cinit CODE >1095:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1F cinit CODE >1096:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-20 cinit CODE >1097:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-21 cinit CODE >1098:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-22 cinit CODE >1099:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-23 cinit CODE >1100:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-24 cinit CODE >1101:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-25 cinit CODE >1102:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-26 cinit CODE >1103:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-27 cinit CODE >1106:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-28 cinit CODE >1107:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-29 cinit CODE >1108:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-2A cinit CODE >1109:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-2B cinit CODE >1110:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-2C cinit CODE >1111:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-2D cinit CODE >1112:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-2E cinit CODE >1113:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-2F cinit CODE >1116:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-30 cinit CODE >1117:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-31 cinit CODE >1123:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-31 cinit CODE >1125:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-32 cinit CODE >1126:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-4 intentry CODE >196:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1C37 text36 CODE >196:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1C37 text36 CODE >198:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1C39 text36 CODE >200:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1C3A text36 CODE >201:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1C3E text36 CODE >202:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1C40 text36 CODE >204:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1C43 text36 CODE >206:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1C44 text36 CODE >209:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+F cinit CODE >996:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+F cinit CODE >999:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+F cinit CODE >1079:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+10 cinit CODE >1080:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+11 cinit CODE >1081:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+12 cinit CODE >1082:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+13 cinit CODE >1083:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+14 cinit CODE >1084:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+15 cinit CODE >1085:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+16 cinit CODE >1086:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+17 cinit CODE >1087:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+18 cinit CODE >1088:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1B cinit CODE >1092:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C cinit CODE >1093:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1D cinit CODE >1094:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1E cinit CODE >1095:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1F cinit CODE >1096:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+20 cinit CODE >1097:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+21 cinit CODE >1098:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+22 cinit CODE >1099:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+23 cinit CODE >1100:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+24 cinit CODE >1101:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+25 cinit CODE >1102:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+26 cinit CODE >1103:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+27 cinit CODE >1106:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+28 cinit CODE >1107:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+29 cinit CODE >1108:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+2A cinit CODE >1109:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+2B cinit CODE >1110:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+2C cinit CODE >1111:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+2D cinit CODE >1112:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+2E cinit CODE >1113:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+2F cinit CODE >1116:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+30 cinit CODE >1117:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+31 cinit CODE >1123:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+31 cinit CODE >1125:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+32 cinit CODE >1126:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+4 intentry CODE >197:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1C37 text36 CODE >197:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1C37 text36 CODE >199:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1C39 text36 CODE >201:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1C3A text36 CODE >202:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1C3E text36 CODE >203:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1C40 text36 CODE >205:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1C43 text36 CODE >207:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1C44 text36 CODE >210:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
 65E text35 CODE >8:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcdiv.c
 65E text35 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcdiv.c
 661 text35 CODE >27:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcdiv.c
@@ -1409,38 +1409,38 @@ FF text2 CODE >858:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\d
 1587 maintext CODE >167:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
 1589 maintext CODE >169:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
 15D4 maintext CODE >173:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-15F6 maintext CODE >174:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-15F9 maintext CODE >178:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1600 maintext CODE >176:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1607 maintext CODE >177:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-160A maintext CODE >178:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-160D maintext CODE >178:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1612 maintext CODE >179:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1616 maintext CODE >181:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-161A maintext CODE >182:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1622 maintext CODE >183:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1624 maintext CODE >185:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-162D maintext CODE >186:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1633 maintext CODE >184:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1636 maintext CODE >190:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-163E maintext CODE >192:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
-1C13 inittext CODE >1053:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C13 inittext CODE >1054:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C14 inittext CODE >1055:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C15 inittext CODE >1056:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C16 inittext CODE >1057:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C17 inittext CODE >1064:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C17 inittext CODE >1065:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C1A inittext CODE >1066:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C1B inittext CODE >1067:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C1C inittext CODE >1068:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C1D inittext CODE >1069:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C1E inittext CODE >1070:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C1F inittext CODE >1071:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C20 inittext CODE >1072:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C21 inittext CODE >1073:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C22 inittext CODE >1074:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
-1C23 inittext CODE >1075:C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_1.s
+15F6 maintext CODE >175:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+15F9 maintext CODE >179:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1600 maintext CODE >177:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1607 maintext CODE >178:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+160A maintext CODE >179:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+160D maintext CODE >179:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1612 maintext CODE >180:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1616 maintext CODE >182:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+161A maintext CODE >183:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1622 maintext CODE >184:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1624 maintext CODE >186:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+162D maintext CODE >187:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1633 maintext CODE >185:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1636 maintext CODE >191:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+163E maintext CODE >193:C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+1C13 inittext CODE >1053:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C13 inittext CODE >1054:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C14 inittext CODE >1055:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C15 inittext CODE >1056:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C16 inittext CODE >1057:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C17 inittext CODE >1064:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C17 inittext CODE >1065:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C1A inittext CODE >1066:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C1B inittext CODE >1067:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C1C inittext CODE >1068:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C1D inittext CODE >1069:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C1E inittext CODE >1070:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C1F inittext CODE >1071:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C20 inittext CODE >1072:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C21 inittext CODE >1073:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C22 inittext CODE >1074:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
+1C23 inittext CODE >1075:C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_1.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -1488,11 +1488,11 @@ _T0IE 5D 0 ABS 0 - dist/Config_2/production\CONTROLE.X.production.o
 _T0IF 5A 0 ABS 0 - dist/Config_2/production\CONTROLE.X.production.o
 _TMR0 1 0 ABS 0 - dist/Config_2/production\CONTROLE.X.production.o
 _TMR2 11 0 ABS 0 - dist/Config_2/production\CONTROLE.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
+___sp 0 0 STACK 2 stack C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
 _byte 3B42 0 CODE 0 text23 dist/Config_2/production\CONTROLE.X.production.o
 _main 2A2E 0 CODE 0 maintext dist/Config_2/production\CONTROLE.X.production.o
 btemp 7E 0 ABS 0 - dist/Config_2/production\CONTROLE.X.production.o
-start 18 0 CODE 0 init C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
+start 18 0 CODE 0 init C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
 ___flmul@aexp 47 0 BANK0 1 cstackBANK0 dist/Config_2/production\CONTROLE.X.production.o
 ___flmul@bexp 48 0 BANK0 1 cstackBANK0 dist/Config_2/production\CONTROLE.X.production.o
 ___flmul@prod 4D 0 BANK0 1 cstackBANK0 dist/Config_2/production\CONTROLE.X.production.o
@@ -1509,12 +1509,12 @@ __Hpowerup 0 0 CODE 0 powerup -
 ___awmod@sign 77 0 COMMON 1 cstackCOMMON dist/Config_2/production\CONTROLE.X.production.o
 __end_of__npowers_ 20DC 0 STRING 0 strings dist/Config_2/production\CONTROLE.X.production.o
 _sprintf$1071 AC 0 BANK1 1 cstackBANK1 dist/Config_2/production\CONTROLE.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 wtemp0 7E 0 ABS 0 - dist/Config_2/production\CONTROLE.X.production.o
 ___llmod@divisor 26 0 BANK0 1 cstackBANK0 dist/Config_2/production\CONTROLE.X.production.o
@@ -1563,8 +1563,8 @@ __end_of___lbmod 393E 0 CODE 0 text8 dist/Config_2/production\CONTROLE.X.product
 __end_of___lldiv 2238 0 CODE 0 text14 dist/Config_2/production\CONTROLE.X.production.o
 __end_of___llmod 3D8C 0 CODE 0 text13 dist/Config_2/production\CONTROLE.X.production.o
 __Umul8_16@multiplicand 72 0 COMMON 1 cstackCOMMON dist/Config_2/production\CONTROLE.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
-___stacklo 0 0 ABS 0 - C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
+___stackhi 0 0 ABS 0 - C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
+___stacklo 0 0 ABS 0 - C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
 _dpowers 20DC 0 STRING 0 strings dist/Config_2/production\CONTROLE.X.production.o
 __end_of_enable 3AD0 0 CODE 0 text25 dist/Config_2/production\CONTROLE.X.production.o
 __end_of_fround 3000 0 CODE 0 text7 dist/Config_2/production\CONTROLE.X.production.o
@@ -1594,7 +1594,7 @@ __tdiv_to_l_@f1 72 0 COMMON 1 cstackCOMMON dist/Config_2/production\CONTROLE.X.p
 __tdiv_to_l_@f2 76 0 COMMON 1 cstackCOMMON dist/Config_2/production\CONTROLE.X.production.o
 _isdigit$856 72 0 COMMON 1 cstackCOMMON dist/Config_2/production\CONTROLE.X.production.o
 ___lbdiv@counter 21 0 BANK0 1 cstackBANK0 dist/Config_2/production\CONTROLE.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
+___int_sp 0 0 STACK 2 stack C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
 muda_pin@_pin 74 0 COMMON 1 cstackCOMMON dist/Config_2/production\CONTROLE.X.production.o
 muda_pin@_val 76 0 COMMON 1 cstackCOMMON dist/Config_2/production\CONTROLE.X.production.o
 __Hbank0 0 0 ABS 0 bank0 -
@@ -1672,7 +1672,7 @@ _lcd_pins 1B6 0 BANK3 1 dataBANK3 dist/Config_2/production\CONTROLE.X.production
 __Lintentry 8 0 CODE 0 intentry -
 ___lldiv@divisor 72 0 COMMON 1 cstackCOMMON dist/Config_2/production\CONTROLE.X.production.o
 __stringtab 2000 0 STRING 0 strings dist/Config_2/production\CONTROLE.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Henrique\AppData\Local\Temp\xcAsad4.\driver_tmp_17.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Henrique\AppData\Local\Temp\xcAsfn8.\driver_tmp_17.o
 __end_of___xxtofl 24A6 0 CODE 0 text32 dist/Config_2/production\CONTROLE.X.production.o
 __powers_ 200C 0 STRING 0 strings dist/Config_2/production\CONTROLE.X.production.o
 __pdataBANK3 1B6 0 BANK3 1 dataBANK3 dist/Config_2/production\CONTROLE.X.production.o

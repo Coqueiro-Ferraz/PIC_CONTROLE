@@ -2924,7 +2924,8 @@ void main()
         }
 
 
-        sprintf(buffer, "ADC0: %.2f, Duty: %uc \r\n", temp, duty_cycle);
+        sprintf(buffer, "Temp: %.2f C Duty: %u \r\n", temp, duty_cycle);
+
         for (int i = 0; buffer[i] != '\0'; i++)
         {
             TXREG = buffer[i];

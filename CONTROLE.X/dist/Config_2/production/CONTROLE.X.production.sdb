@@ -79,7 +79,7 @@
 [v _controle_pwm controle_pwm `(v  1 e 1 0 ]
 "146
 [v _main main `(v  1 e 1 0 ]
-"196
+"197
 [v _Timers_ISR Timers_ISR `II(v  1 e 1 0 ]
 "4 C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\bibliotec_lcd.c
 [v _RS RS `VEi  1 e 2 0 ]
@@ -246,9 +246,9 @@
 "146
 [v _main main `(v  1 e 1 0 ]
 {
-"181
+"182
 [v main@c c `uc  1 a 1 30 ]
-"174
+"175
 [v main@i i `i  1 a 2 31 ]
 "150
 [v main@buffer buffer `[30]uc  1 a 30 0 ]
@@ -256,7 +256,7 @@
 [v main@temp temp `f  1 a 4 34 ]
 "149
 [v main@duty_cycle duty_cycle `uc  1 a 1 33 ]
-"194
+"195
 } 0
 "113
 [v _velocidade velocidade `(v  1 e 1 0 ]
@@ -642,8 +642,8 @@
 [v ___fldiv@b b `d  1 p 4 55 ]
 "185
 } 0
-"196 C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
+"197 C:\Users\Henrique\Desktop\projetos_aulas\PIC_CONTROLE\CONTROLE.X\controle.c
 [v _Timers_ISR Timers_ISR `II(v  1 e 1 0 ]
 {
-"209
+"210
 } 0
